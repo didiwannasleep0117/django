@@ -1,5 +1,5 @@
 
-from .sign.models import Event, Guest
+from .models import Event, Guest
 from django.shortcuts import render
 from django.http import HttpResponse, HttpResponseRedirect
 from django.contrib import auth
